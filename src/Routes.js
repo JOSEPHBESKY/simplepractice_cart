@@ -1,7 +1,7 @@
-import React from 'react'
-import Products from './Products.js'
-import Cart from './Cart.js'
-import {Switch,Route} from 'react-router-dom'
+import React from 'react';
+import Products from './Products.js';
+import Cart from './Cart.js';
+import {Switch,Route} from 'react-router-dom';
 const Routes= ({productidems,cartitems,handleaddproduct}) => {
   return (
 <Switch>
@@ -11,4 +11,4 @@ const Routes= ({productidems,cartitems,handleaddproduct}) => {
   )
 }
 
-export default Routes
+export default Routes;
